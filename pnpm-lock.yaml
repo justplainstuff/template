@@ -33,8 +33,8 @@ importers:
         specifier: ^0.27.4
         version: 0.27.4
       plainstack:
-        specifier: ^0.0.25
-        version: 0.0.25(@kitajs/html@4.2.2)(better-sqlite3@11.3.0)(esbuild@0.23.1)(express@4.21.0)(kysely-codegen@0.16.8(better-sqlite3@11.3.0)(kysely@0.27.4))(kysely@0.27.4)(tailwindcss@3.4.13)(tsx@4.19.1)(typescript@5.6.2)(vitest@2.1.2(@types/node@20.16.10))(zod@3.23.8)
+        specifier: ^0.0.33
+        version: 0.0.33(@kitajs/html@4.2.2)(better-sqlite3@11.3.0)(esbuild@0.23.1)(express@4.21.0)(kysely-codegen@0.16.8(better-sqlite3@11.3.0)(kysely@0.27.4))(kysely@0.27.4)(tailwindcss@3.4.13)(tsx@4.19.1)(typescript@5.6.2)(vitest@2.1.2(@types/node@20.16.10))(zod@3.23.8)
       tsx:
         specifier: ^4.16.2
         version: 4.19.1
@@ -1565,8 +1565,8 @@ packages:
     peerDependencies:
       better-sqlite3: ^11.0.0
 
-  plainstack@0.0.25:
-    resolution: {integrity: sha512-miMSncgMnSAZem194sAm8L++hPIgYFtzZHQf3mOKllmZky9hZ/13L2sO+ohJ8aD5tT1czlzPPr7fgfZ0lblptA==}
+  plainstack@0.0.33:
+    resolution: {integrity: sha512-NJXndlJ7Pm0PMAD3xYDPvKIeo4LTZXWinCmcC/z66W5strpNOXs2EUWryM9Lpwo3lNtnPJmZuOxoSKMf3w4wHg==}
     hasBin: true
     peerDependencies:
       '@kitajs/html': ^4.2.1
@@ -3355,7 +3355,7 @@ snapshots:
       better-sqlite3: 11.3.0
       cron-parser: 4.9.0
 
-  plainstack@0.0.25(@kitajs/html@4.2.2)(better-sqlite3@11.3.0)(esbuild@0.23.1)(express@4.21.0)(kysely-codegen@0.16.8(better-sqlite3@11.3.0)(kysely@0.27.4))(kysely@0.27.4)(tailwindcss@3.4.13)(tsx@4.19.1)(typescript@5.6.2)(vitest@2.1.2(@types/node@20.16.10))(zod@3.23.8):
+  plainstack@0.0.33(@kitajs/html@4.2.2)(better-sqlite3@11.3.0)(esbuild@0.23.1)(express@4.21.0)(kysely-codegen@0.16.8(better-sqlite3@11.3.0)(kysely@0.27.4))(kysely@0.27.4)(tailwindcss@3.4.13)(tsx@4.19.1)(typescript@5.6.2)(vitest@2.1.2(@types/node@20.16.10))(zod@3.23.8):
     dependencies:
       '@kitajs/html': 4.2.2
       '@paralleldrive/cuid2': 2.2.2
